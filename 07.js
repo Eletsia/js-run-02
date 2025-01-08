@@ -24,7 +24,11 @@
  */
 
 // TODO: get20sEmail 함수를 작성하세요.
-function get20sEmail() {}
+function get20sEmail(arr) {
+    var twentys_email = [];
+    twentys_email.push((arr) => arr.age>=20 && arr.age <30);
+    return twentys_email.email;
+}
 
 // export를 수정하지 마세요.
 export { get20sEmail };
